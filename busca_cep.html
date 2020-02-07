@@ -16,6 +16,7 @@
         </header>
 
         <div class="row" style="padding: 50px;color: white;font-size: large;">
+
             <form action="" class="search-form">
                 <div class="form-group">
                     <div class="row">
@@ -27,67 +28,38 @@
                             <br>
                             <button type="button" class="btn btn-primary btn-lg">Buscar</button>
                         </div>
-                        <input class="logradouro" id="logradouro" type="text" placeholder="Nome da Rua:"/>
                     </div>
-                    
                     <br>
-                    <div class="row">
-                        <div class="col-md-8">
-                            <label style="font-size: ;">Logradouro:</label>
-                            <input type="text" class="form-control"id="logradouro"  ><label id="x" value=""></label>
-                        </div>
-    
-                        <div class="col-md-4">
-                            <label for="complemento" style="font-size: ;">Complemento:</label>
-                            <input type="complemento" class="form-control" id="complemento" />
-                        </div>
-                    </div>
 
-                    <br>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <label for="bairro" style="font-size: ;">Bairro:</label>
-                            <input type="bairro" class="form-control" id="bairro"/>
+                    <div class="row" >
+                        <table class="table table-striped" style="width: 50%;">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;">Logradouro : </th>
+                                    <th class="logradouro" style="width: 40px;"></th>
+                                </tr>
+                                <tr>
+                                    <th style="width: 10%;">Complemento : </th>
+                                    <th class="complemento" style="width: 40%;"></th>
+                                </tr>
+                                <tr>
+                                    <th style="width: 10%;">Bairro : </th>
+                                    <th class="bairro" style="width: 40%;"></th>
+                                </tr>
+                                <tr>
+                                    <th style="width: 10%;">Localidade : </th>
+                                    <th class="localidade" style="width: 40%;"></th>
+                                </tr>
+                                    <th style="width: 10%;">UF : </th>
+                                    <th class="uf" style="width: 40%;"></th>
+                                </tr>
+                            </thead>
+                        </table>
                         </div>
-                        <div class="col-md-4">
-                            <label for="localidade" style="font-size: ;">Localidade:</label>
-                            <input type="localidade" class="form-control" id="localidade"/>
-                        </div>
-                        <div class="col-md-1">
-                            <label for="uf" style="font-size: ;">UF:</label>
-                            <input type="uf" class="form-control" id="uf"/>
-                        </div>
-                    </div>
     
                   </div>
             </form>
         </div>
-
-        <div class="row">
-            <table>
-                <tr>
-                    <th>Logradouro : </th>
-                    <th class="logradouro"></th>
-                </tr>
-                <tr>
-                    <th>Complemento</th>
-                    <th class="complemento"></th>
-                </tr>
-                <tr>
-                    <th>Bairro</th>
-                    <th class="bairro"></th>
-                </tr>
-                <tr>
-                    <th>Localidade</th>
-                    <th class="localidade"></th>
-                </tr>
-                <tr>
-                    <th>UF</th>
-                    <th class="uf"></th>
-                </tr>
-            </table>
-        </div>
-        
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="busca_cep.js"></script>
